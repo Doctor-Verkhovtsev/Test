@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Exo2.0-Thin';
+    src: url('../fonts/Exo20-Thin.eot');
+    src: url('../fonts/Exo20-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Exo20-Thin.woff') format('woff'),
+        url('../fonts/Exo20-Thin.ttf') format('truetype'),
+        url('../fonts/Exo20-Thin.svg#Exo2.0-Thin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('../pics/bg.png') center/cover no-repeat fixed;
+    margin: 0;
+}
+main {
+
+}
+h1 {
+    font: normal 36px/36px 'Exo2.0-Thin', sans-serif;
+    color: #fff;
+    /*text-shadow: 0px 1px 3px #000, 0px 1px 2px #000, 0px 1px 1px #000;*/
+    text-align: center;
+    margin: 0;
+    padding: 23px 0 0;
+}
+.element {
+    display: inline-block;
+    font-family: 'Trebuchet MS', sans-serif;
+    padding: 23px 40px;
+}
+.pack {
+    position: relative;
+    background: #f2f2f2 url('../pics/cat.jpg') no-repeat left bottom;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    min-height: 472px;
+    min-width: 312px;
+}
+.pack_default {
+    border-color: #1698d9;
+}
+h2 {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 16px;
+    color: #666;
+    padding: 20px 0 16px 45px;
+    margin: 0;
+}
+h3 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 48px;
+    color: #000;
+    padding: 0 0 5px 45px;
+    margin: 0;
+}
+h4 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #000;
+    padding: 0 0 18px 45px;
+    margin: 0;
+}
+.info {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 16px;
+    color: #666;
+    padding: 0 0 0 45px;
+    margin: 0;
+}
+.weight {
+    position: absolute;
+    bottom: 11px;
+    right: 11px;
+    width: 81px;
+    height: 81px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 42px;
+    line-height: 14px;
+    color: #fff;
+}
+.weight_default {
+    background-color: #1698d9;
+}
+sub {
+    font-size: 21px;
+}
+p {
+    margin: 0;
+}
+.label {
+    display: block;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 16px;
+}
+.label_default {
+    color: #fff;
+}
+.label span {
+    color: #1698d9;
+}
+a {
+    cursor: pointer;
+    font-weight: bold;
+    color: #1698d9;
+    text-decoration: none;
+    border-bottom: 1px dashed #1698d9;
+}
